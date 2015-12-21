@@ -70,6 +70,14 @@ body{
 	}
 }
 
+.mc-list{
+	color: white;
+	font-size: 60px;
+	@media (max-width: 768px) {
+		font-size: 35px;
+	}
+}
+
 .food{
 	background: white;
 	-webkit-border-radius: 8px;
