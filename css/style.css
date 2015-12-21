@@ -103,20 +103,20 @@ body {
   border-style: solid;
   border-width: 0px;
 }
-/* line 98, ./scss/style.scss */
-.food .item img {
+/* line 99, ./scss/style.scss */
+.food img {
   padding-top: 20px;
   padding-bottom: 10px;
   width: 100%;
 }
 @media (max-width: 992px) {
-  /* line 98, ./scss/style.scss */
-  .food .item img {
+  /* line 99, ./scss/style.scss */
+  .food img {
     width: 80%;
   }
 }
-/* line 106, ./scss/style.scss */
-.food .item p {
+/* line 107, ./scss/style.scss */
+.food p {
   font-size: 20px;
   padding-bottom: 20px;
 }

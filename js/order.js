@@ -30,7 +30,7 @@ $(document).ready(function () {
 			$("#done").animate({
 				opacity: "show"
 			}, "slow",function(){
-				setTimeout(function(){document.location.href="index.html";},1000);
+				setTimeout(function(){document.location.href="index.html";},5000);
 			});
 		});
 	});
