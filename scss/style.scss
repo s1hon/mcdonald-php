@@ -1,0 +1,51 @@
+body{
+	background: #C21A0C;
+}
+
+.menu{
+	background: rgba(100%, 100%, 100%, 0.3);
+	padding-top: 10px;
+	padding-left: 33px;
+	font-size: 18px;
+	margin-top:20px;
+	height: 45px;
+	text-align:center;
+
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	@media (max-width: 768px) {
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+	}
+
+
+	a{
+	padding-right: 0.5%;
+	color: white;
+	}
+}
+
+.logo{
+	padding-top:50px;
+	color: white;
+	text-align:center; 
+	
+	img{
+		width: 100%;
+	}
+
+	.logo-text{
+		text-align: center;
+		padding-top: 10px;
+
+		.row{
+			font-size: 60px;
+		}
+		.author{
+			font-size: 25px;	
+		}
+	}
+}

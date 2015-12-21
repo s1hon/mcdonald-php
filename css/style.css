@@ -1,0 +1,51 @@
+/* line 1, ./scss/style.scss */
+body {
+  background: #C21A0C;
+}
+
+/* line 5, ./scss/style.scss */
+.menu {
+  background: rgba(255, 255, 255, 0.3);
+  padding-top: 10px;
+  padding-left: 33px;
+  font-size: 18px;
+  margin-top: 20px;
+  height: 45px;
+  text-align: center;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  /* line 5, ./scss/style.scss */
+  .menu {
+    border-radius: 0px;
+  }
+}
+/* line 25, ./scss/style.scss */
+.menu a {
+  padding-right: 0.5%;
+  color: white;
+}
+
+/* line 31, ./scss/style.scss */
+.logo {
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+/* line 36, ./scss/style.scss */
+.logo img {
+  width: 100%;
+}
+/* line 40, ./scss/style.scss */
+.logo .logo-text {
+  text-align: center;
+  padding-top: 10px;
+}
+/* line 44, ./scss/style.scss */
+.logo .logo-text .row {
+  font-size: 60px;
+}
+/* line 47, ./scss/style.scss */
+.logo .logo-text .author {
+  font-size: 25px;
+}
