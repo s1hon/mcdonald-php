@@ -104,11 +104,16 @@ body {
 }
 
 /* line 105, ./scss/style.scss */
-.drink {
+#drink {
   display: none;
 }
 
 /* line 109, ./scss/style.scss */
-.fries {
+#fries {
+  display: none;
+}
+
+/* line 113, ./scss/style.scss */
+#done {
   display: none;
 }

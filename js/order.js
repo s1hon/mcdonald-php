@@ -1,21 +1,37 @@
 $(document).ready(function () {
+
 	$(".ham").click(function () {
-		$(this).animate({
+		console.log("ham=" + $(this).attr("id"));
+		$("#ham").animate({
 			opacity: "hide"
 		}, "slow" ,function(){
-			$(".drink").animate({
+			$("#drink").animate({
 				opacity: "show"
 			}, "slow");	
 		});
 	});
 
 	$(".drink").click(function () {
-		$(this).animate({
+		console.log("drink=" + $(this).attr("id"));
+		$("#drink").animate({
 			opacity: "hide"
 		}, "slow" ,function(){
-			$(".fries").animate({
+			$("#fries").animate({
 				opacity: "show"
 			}, "slow");	
+		});
+	});
+
+	$(".fries").click(function () {
+		console.log("fries=" + $(this).attr("id"));
+		$("#fries").animate({
+			opacity: "hide"
+		}, "slow" ,function(){
+			$("#done").animate({
+				opacity: "show"
+			}, "slow",function(){
+				setTimeout(function(){document.location.href="index.html";},1000);
+			});
 		});
 	});
 
