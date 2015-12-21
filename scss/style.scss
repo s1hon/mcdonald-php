@@ -2,6 +2,13 @@ body{
 	background: #C21A0C;
 }
 
+.drk-logo{
+    background-image: url("../img/logo-drk.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+	height: 100vh;
+}
+
 .menu{
 	background: rgba(100%, 100%, 100%, 0.3);
 	padding-top: 10px;
@@ -48,4 +55,57 @@ body{
 			font-size: 25px;	
 		}
 	}
+}
+
+.mc-caption{
+	padding-top: 130px;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	@media (max-width: 768px) {
+		padding-top: 60px;
+		font-size: 35px;
+	}
+}
+
+.food{
+	background: white;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-align: center;
+	
+	@media (max-width: 768px) {
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+	}
+
+	.item{
+		img{
+			padding-top: 20px;
+			padding-bottom: 10px;
+			width: 100%;
+			@media (max-width: 992px) {
+				width: 80%;
+			}
+		}
+		p{
+			font-size: 20px;
+			padding-bottom: 20px;
+		}
+	}
+}
+
+
+.ham{
+	// display: none;
+}
+
+.drink{
+	display: none;
+}
+
+.fries{
+	display: none;
 }

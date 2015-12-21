@@ -4,6 +4,14 @@ body {
 }
 
 /* line 5, ./scss/style.scss */
+.drk-logo {
+  background-image: url("../img/logo-drk.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+
+/* line 12, ./scss/style.scss */
 .menu {
   background: rgba(255, 255, 255, 0.3);
   padding-top: 10px;
@@ -15,37 +23,92 @@ body {
   border-radius: 10px;
 }
 @media (max-width: 768px) {
-  /* line 5, ./scss/style.scss */
+  /* line 12, ./scss/style.scss */
   .menu {
     border-radius: 0px;
   }
 }
-/* line 25, ./scss/style.scss */
+/* line 32, ./scss/style.scss */
 .menu a {
   padding-right: 0.5%;
   color: white;
 }
 
-/* line 31, ./scss/style.scss */
+/* line 38, ./scss/style.scss */
 .logo {
   padding-top: 50px;
   color: white;
   text-align: center;
 }
-/* line 36, ./scss/style.scss */
+/* line 43, ./scss/style.scss */
 .logo img {
   width: 100%;
 }
-/* line 40, ./scss/style.scss */
+/* line 47, ./scss/style.scss */
 .logo .logo-text {
   text-align: center;
   padding-top: 10px;
 }
-/* line 44, ./scss/style.scss */
+/* line 51, ./scss/style.scss */
 .logo .logo-text .row {
   font-size: 60px;
 }
-/* line 47, ./scss/style.scss */
+/* line 54, ./scss/style.scss */
 .logo .logo-text .author {
   font-size: 25px;
+}
+
+/* line 60, ./scss/style.scss */
+.mc-caption {
+  padding-top: 130px;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+@media (max-width: 768px) {
+  /* line 60, ./scss/style.scss */
+  .mc-caption {
+    padding-top: 60px;
+    font-size: 35px;
+  }
+}
+
+/* line 71, ./scss/style.scss */
+.food {
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  /* line 71, ./scss/style.scss */
+  .food {
+    border-radius: 0px;
+  }
+}
+/* line 85, ./scss/style.scss */
+.food .item img {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  /* line 85, ./scss/style.scss */
+  .food .item img {
+    width: 80%;
+  }
+}
+/* line 93, ./scss/style.scss */
+.food .item p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 105, ./scss/style.scss */
+.drink {
+  display: none;
+}
+
+/* line 109, ./scss/style.scss */
+.fries {
+  display: none;
 }
