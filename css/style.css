@@ -120,18 +120,49 @@ body {
   font-size: 20px;
   padding-bottom: 20px;
 }
+/* line 112, ./scss/style.scss */
+.food table {
+  font-size: 20px;
+}
+@media (max-width: 992px) {
+  /* line 112, ./scss/style.scss */
+  .food table {
+    font-size: 15px;
+  }
+  /* line 116, ./scss/style.scss */
+  .food table button {
+    font-size: 10px;
+  }
+}
+/* line 120, ./scss/style.scss */
+.food table #m {
+  height: 60px;
+}
+/* line 122, ./scss/style.scss */
+.food table #m td {
+  padding: 0;
+}
+/* line 126, ./scss/style.scss */
+.food table tr {
+  height: 20px;
+}
+/* line 129, ./scss/style.scss */
+.food table td {
+  width: 200px;
+  padding-bottom: 10px;
+}
 
-/* line 118, ./scss/style.scss */
+/* line 141, ./scss/style.scss */
 #drink {
   display: none;
 }
 
-/* line 122, ./scss/style.scss */
+/* line 145, ./scss/style.scss */
 #fries {
   display: none;
 }
 
-/* line 126, ./scss/style.scss */
+/* line 149, ./scss/style.scss */
 #done {
   display: none;
 }

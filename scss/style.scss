@@ -108,6 +108,29 @@ body{
 		font-size: 20px;
 		padding-bottom: 20px;
 	}
+
+	table{
+		font-size: 20px;
+		@media (max-width: 992px) {
+			font-size: 15px;
+			button{
+				font-size: 10px;
+			}
+		}
+		#m{
+			height: 60px;
+			td{
+				padding: 0;
+			}
+		}
+		tr{
+			height: 20px;
+		}
+		td{
+			width: 200px;
+			padding-bottom: 10px;
+		}
+	}
 }
 
 
